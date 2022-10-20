@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta&display=swap");
+#certification {
+  font-family: "Mukta", sans-serif;
+}
+.certification-heading {
+  text-align: center;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.certification-wrapper {
+  background-color: #f1f4f8;
+  border-radius: 10px;
+  padding: 10px;
+  height: 150px;
+}
+.certification-wrapper h6 {
+  font-weight: 700;
+}
+.certification-wrapper p {
+  color: #4b4751;
+}
+.certification-card {
+  padding: 10px;
+}

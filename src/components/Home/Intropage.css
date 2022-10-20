@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+#intro {
+  font-family: "PT Sans", sans-serif;
+  color: #4b4751;
+}
+.intro-text-section {
+  width: 50%;
+}
+.intro-text-section h2 {
+  font-size: 45px;
+  font-weight: 700;
+}
+.intro-text-section h2 span {
+  color: #19e60b;
+}
+.intro-text-section p {
+  margin: 10px 0 30px;
+}
+.intro-text-section .btn {
+  padding: 10px 60px;
+  font-size: 15px;
+  display: inline-block;
+  text-decoration: none;
+  padding: 8px 40px;
+  color: #ffffff;
+  background-image: linear-gradient(45deg, #df4881, #c430d7);
+  transition: 0.5s;
+}
+.intro-text-section .btn:hover {
+  border-radius: 30px;
+  color: #ffffff;
+}
+.intro-img-section {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.intro-img-section img {
+  height: 300px;
+
+  border-radius: 500px;
+  text-align: center;
+}
+
+.prof-site a {
+  background-image: linear-gradient(45deg, #8e377e, #8636b5);
+  margin-right: 15px;
+  padding: 6px 20px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 50px;
+  font-size: 15px;
+}
+.prof-site {
+  margin: 40px 0;
+}
+
+@media screen and (max-width: 992px) {
+  .intropage {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .intro-text-section p {
+    font-size: 19px;
+    text-align: center;
+    padding: 0 30px 0 20px;
+  }
+
+  .intro-img-section img {
+    text-align: center;
+  }
+  .prof-site {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+  }
+  .prof-site a {
+    padding: 10px 10px;
+    margin: 10px 0;
+  }
+}

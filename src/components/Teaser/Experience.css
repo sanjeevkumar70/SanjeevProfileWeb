@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta&display=swap");
+#experience {
+  font-family: "Mukta", sans-serif;
+}
+.exp-heading {
+  text-align: center;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.exp-wrapper {
+  background-color: #f5f3f5;
+  border-radius: 10px;
+  padding: 20px 5px;
+}
+.company-name,
+.responsibility-heading {
+  font-weight: 700;
+}
+.exp-details h5 {
+  font-weight: 700;
+}
+.exp-left-image img,
+.exp-right-image img {
+  width: 100px;
+  border-radius: 100px;
+  border: 1px solid #b1b1b1;
+}
+
+.exp-description,
+.exp-responsibility {
+  color: #60576d;
+}
+@media screen and (max-width: 992px) {
+  .exp-details .exp-description {
+    text-align: center;
+  }
+  .exp-description,
+  .exp-responsibility {
+    font-size: 18px;
+  }
+  .exp-left-image,
+  .exp-right-image,
+  .exp-left-text,
+  .exp-right-text {
+    text-align: center;
+  }
+}

@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Shalimar&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap");
+.navbar {
+  box-shadow: 0 0 20px rgb(132, 132, 171);
+  position: sticky;
+  background-color: black;
+}
+
+.sanjeev-logo {
+  /* font-family: "Fuzzy Bubbles", cursive; */
+  font-family: 'Shalimar', cursive;
+  font-size: 40px;
+ 
+}
+
+.nav-item a {
+  font-size: 17px;
+  font-weight: 700;
+  margin: 10px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.nav-item a:hover {
+  color: red;
+  text-decoration: underline;
+}
